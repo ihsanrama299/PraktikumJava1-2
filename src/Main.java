@@ -1,3 +1,5 @@
+import com.sun.org.apache.xpath.internal.objects.XString;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,7 +13,12 @@ public class Main {
         char nilaiAbjad = 'A';
         boolean statusAktif = true;
 
-        System.out.print(namaDepan + namaTengah + namaBelakang);
+        System.out.println(namaDepan + namaTengah + namaBelakang);
+
+        char[] uniskaChar = {'U','N','I','S','K','A'};
+        String uniskaString = new String(uniskaChar);
+
+        System.out.println(uniskaString);
 
     }
 
